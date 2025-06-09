@@ -351,10 +351,9 @@ section.visible {
   margin-bottom: 2rem;
 }
 
-.experience-deatils-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.experience-details-container {
+    /* Reduce spacing here */
+    margin-top: 2rem; /* or less */
 }
 
 .article-container {
