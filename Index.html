@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo">Welcome to my Portfolio!</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">CJM</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Profile Section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/grade12.png" alt="Carl Joshua profile picture" class="main_pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I’m</p>
+            <h1 class="title">Carl Joshua Muyco</h1>
+            <p class="section__text__p2">Website Developer, Graphic Designer and Multimedia Editor</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CARL JOSHUA MUYCO RESUME.docx')">Download CV</button>
+                
+            </div>
+            <div id="socials-container">
+                <img src="./assets/facebook.png" alt="facebook" class="icon" onclick="location.href='https://www.facebook.com/carljoshua.muyco/'" />
+                <img src="./assets/ig.png" alt="ig" class="icon" onclick="location.href='@carl_j.muyco"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about">
+    <p class="section__text__p1">Get To Know More About Me!</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assets/profile2.jpg" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <!-- Work Experience -->
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                    <h3>Work Experience</h3>
+                    <p>2020 - 2022<br />CCTV Operator</p>
+                    <p>2024 - Present<br />Multimedia Part - Time Editor</p>
+                </div>
+                <!-- Education Timeline -->
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="Education icon" class="icon" />
+                    <h3>Education</h3>
+                    <p>Elementary: Immaculate Heart of Mary Academy (2009 - 2015)</p>
+                    <p>Junior High School: Immaculate Heart of Mary Academy (2015 - 2019)</p>
+                    <p>Senior High School: Immaculate Heart of Mary Academy (2019 - 2021)</p>
+                    <p>College: Holy Cross of Davao College (2021 - Present) Course: Bachelor of Science in Information Technology<br />
+
+                    </p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                  I'm a successful multimedia editor, graphic designer, and web developer passionate about creating useful, visually engaging digital experiences. I blend technical skill with creativity to deliver impactful multimedia content, compelling visuals, and responsive websites.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <!-- Frontend -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>HTML</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>CSS</h3><p>Experienced</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>React</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>JavaScript</h3><p>Intermediate</p></div></article>
+                    </div>
+                </div>
+                <!-- Backend -->
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Java</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Python</h3><p>Intermediate</p></div></article>
+                        <article><img src="./assets/checkmark.png" class="icon" /><div><h3>Laravel</h3><p>Intermediate</p></div></article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+<!-- Projects Section -->
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+
+    <div class="experience-details-container">
+        <div class="about-containers">
+            
+            <!-- Project 1: Blind Vision -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/blindvision.png" alt="Blind Vision App" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">
+                    Blind Vision: Mobile Obstacle Detection for Independent Blind Mobility
+                </h2>
+                <p class="project-description">
+                    "Blind Vision" is a mobile-based assistive technology designed to help visually impaired individuals navigate safely using real-time obstacle detection and audio feedback.
+                </p>
+                <p class="btn-description"></p>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://https://drive.google.com/drive/u/0/folders/1ngoEAY7HrHIyKslJL-nRbfMApcv96py2'">Android</button>
+
+            </div>
+            <!-- Project 2: Social Media Marketing -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/R Web Graphic 1 (1200 x 1200 px).png" alt="Social Media Marketing" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Social Media Marketing</h2>
+                <p class="project-description">
+                    A curated campaign showing creative designs and strategies used for targeted online marketing.
+                </p>
+                <p class="btn-description"></p>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://https://www.canva.com/design/DAGnq-3amIM/BL8gHPUpWBHe6PEUqrimUQ/edit'">Posting</button>
+            </div>
+
+            <!-- Project 3: React Weather App -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/PMX.png" alt="Holidays Graphic for Posting" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Holidays for 2025 Posting</h2>
+                <p class="project-description">
+                    Advance Merry Christmas Poster for posting this December 2025!
+                </p>
+                <p class="btn-description">Try out the app live to check real-time weather updates.</p>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https:https://www.canva.com/design/DAGl5ZpE3Po/i89LcshYiTApRmS3qfQhCA/edit?utm_content=DAGl5ZpE3Po&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Posting</button>
+            </div>
+
+        </div>
+    </div>
+
+    <img src="./assets/arrow.png" class="icon arrow" alt="Scroll to Certificates" onclick="location.href='./#certificates'" />
+</section>
+ <!-- 📜 Certificates Section -->
+<section id="certificates">
+    <p class="section__text__p1">My Achievements</p>
+    <h1 class="title">Certificates</h1>
+    <div class="certificate-gallery">
+        <div class="certificate-card">
+            <img src="./assets/Certificate 1.png" alt="Certificate 1" />
+            <h3>Certificate Title 1</h3>
+            <p>MCITS 2023</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 2.png" alt="Certificate 2" />
+            <h3>Certificate Title 2</h3>
+            <p>MCITS 2024</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 3.jpg" alt="Certificate 3" />
+            <h3>Certificate Title 3</h3>
+            <p>2nd Runner Up for the Best Capstone Exhibit</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 4.png" alt="Certificate 4" />
+            <h3>Certificate Title 4</h3>
+            <p>Build a Website with WordPress</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 5.png" alt="Certificate 5" />
+            <h3>Certificate Title 5</h3>
+            <p>Introduction to Cybersecurity Course</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 6.png" alt="Certificate 6" />
+            <h3>Certificate Title 6</h3>
+            <p>Capstone Writing 1 Workshop</p>
+        </div>
+        <div class="certificate-card">
+            <img src="./assets/Certificate 7.png" alt="Certificate 7" />
+            <h3>Certificate Title 7</h3>
+            <p>Capstone Writing 2 Workshop</p>
+        </div>
+    </div>
+</section>
+      </div>
+        <img src="./assets/arrow.png" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email" class="icon contact-icon email-icon" />
+                <p><a href="https://mail.google.com/mail/u/1/?ogbl#inbox?compose=new">carljoshua380@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/facebook.png" alt="facebook" class="icon contact-icon" />
+                <p><a href="https://www.facebook.com/carljoshua.muyco/">Facebook</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/whatsapp.png" alt="contact" class="icon contact-icon" />
+                <p><a href="0915-346-6358">0915-346-6358</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Carl Joshua Muyco. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
